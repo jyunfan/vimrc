@@ -8,7 +8,7 @@
 
 dir=~/etc                    # etc directory
 olddir=~/etc_old             # old etc backup directory
-files="vimrc"    # list of files/folders to symlink in homedir
+files="vimrc vim"    # list of files/folders to symlink in homedir
 
 ##########
 
