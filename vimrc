@@ -18,13 +18,15 @@ call pathogen#infect()
 filetype plugin indent on
 
 " Highlight tab and tail spaces
-:set list listchars=tab:>-,trail:-
+set list listchars=tab:>-,trail:-
 
 "--- color scheme
+set background=dark
+colorscheme solarized
 " my favorite theme so far
-colorscheme ir_black
+
 " however, specialkeys look bad on cterm so I change it
-highlight SpecialKey ctermfg=0
+"highlight SpecialKey ctermfg=0
 
 " Set font for my MacVim
 set guifont=Source_Code_Pro:h20
