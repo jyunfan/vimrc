@@ -23,10 +23,7 @@ set list listchars=tab:>-,trail:-
 "--- color scheme
 set background=dark
 colorscheme solarized
-" my favorite theme so far
 
-" however, specialkeys look bad on cterm so I change it
-"highlight SpecialKey ctermfg=0
 
 " Set font for my MacVim
 set guifont=Source_Code_Pro:h20
