@@ -43,3 +43,5 @@ set expandtab
 
 set ruler
 syntax on
+
+set nowrap
